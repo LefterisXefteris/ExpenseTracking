@@ -30,8 +30,3 @@ class Transaction:
             json.dump(cls.transactions_list, write_file, indent=4)
         
 
-
-
-transaction1 = Transaction(100, '2023-01-01', 'Groceries')
-transaction1.add_transaction()
-Transaction.serialize_transactions() 
