@@ -1,4 +1,4 @@
-# Expense tracking app
+# Data analytics tools that will track and show my expenses
 
 ## to practice advanced python topics
 
