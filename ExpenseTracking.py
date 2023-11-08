@@ -23,13 +23,15 @@ class Transaction:
     def get_transactions(cls):
         return cls.transactions_list
     
-    def serialize_transaction(self):
+    
+    @classmethod
+    def serialize_transactions(cls):
         with open("data.json", "w") as write_file:
-            json.dump(Transaction.transaction_record, write_file)
+            json.dump(cls.transactions_list, write_file, indent=4)
         
 
 
 
 transaction1 = Transaction(100, '2023-01-01', 'Groceries')
 transaction1.add_transaction()
-print(Transaction.get_transactions())
+Transaction.serialize_transactions() 
