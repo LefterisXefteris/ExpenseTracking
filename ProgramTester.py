@@ -1,5 +1,5 @@
 import unittest
-from ExpenseTracking import Transaction
+from Transaction import Transaction
 
 class TestTransactionMethods(unittest.TestCase):
 
