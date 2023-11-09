@@ -1,6 +1,8 @@
 from Transaction import Transaction
+import json
+
 
 if __name__ == "__main__":
-    first_transaction = Transaction(15, "2023-01-02", "Sim Card")
-    first_transaction.add_transaction()
-    first_transaction.serialize_transactions()
+
+    with open('data.json') as f:
+        data = json.load(f)

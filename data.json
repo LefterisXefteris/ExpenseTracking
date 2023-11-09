@@ -3,5 +3,60 @@
         "amount": 15,
         "date": "2023-01-02",
         "description": "Sim Card"
+    },
+    {
+        "amount": 45,
+        "date": "2023-01-05",
+        "description": "Groceries"
+    },
+    {
+        "amount": 20,
+        "date": "2023-01-06",
+        "description": "Public Transport"
+    },
+    {
+        "amount": 100,
+        "date": "2023-01-10",
+        "description": "Electricity Bill"
+    },
+    {
+        "amount": 60,
+        "date": "2023-01-12",
+        "description": "Internet Bill"
+    },
+    {
+        "amount": 25,
+        "date": "2023-01-15",
+        "description": "Movie Tickets"
+    },
+    {
+        "amount": 200,
+        "date": "2023-01-18",
+        "description": "Furniture"
+    },
+    {
+        "amount": 5,
+        "date": "2023-01-19",
+        "description": "Snacks"
+    },
+    {
+        "amount": 50,
+        "date": "2023-01-22",
+        "description": "Restaurant"
+    },
+    {
+        "amount": 150,
+        "date": "2023-01-25",
+        "description": "Shoes"
+    },
+    {
+        "amount": 300,
+        "date": "2023-01-28",
+        "description": "Rent"
+    },
+    {
+        "amount": 40,
+        "date": "2023-01-30",
+        "description": "Gas"
     }
 ]
